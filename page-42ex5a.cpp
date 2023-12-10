@@ -15,7 +15,7 @@ int main()
     else{
        int number1 = a/100 ;
        int number2 = (a/10) % 10 ;
-       int number3 = a % 110 ;
+       int number3 = a % 10 ;
        
        
        if (number1 != number2 && number1 != number3 && number2 != number3 )   {
